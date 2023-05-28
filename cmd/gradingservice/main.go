@@ -1,8 +1,9 @@
-package gradingservice
+package main
 
 import (
 	"context"
 	"distributed/grades"
+	"distributed/log"
 	"distributed/registry"
 	"distributed/service"
 	"fmt"
@@ -16,6 +17,8 @@ func main(){
 	r := registry.Registration{
 		ServiceName: registry.GradingService,
 		ServiceURL: serviceAddress,
+		RequiredServices: []registry.ServiceName{registry.LogService},
+		ServiceUpdateURL: serviceAddress + "/services",
 	}
 	ctx,err := service.Start(context.Background(),
 		host,
@@ -25,6 +28,12 @@ func main(){
 	if err != nil{
 		stlog.Fatal(err)
 	}
+
+	if logProvider,err := registry.GetProvider(registry.LogService);err == nil{
+		fmt.Printf("Logging service found at: %s\n",logProvider)
+		log.SetClientLogger(logProvider,r.ServiceName)
+	}
+
 	<-ctx.Done()
 	fmt.Println("Shutting down grading service")
 }

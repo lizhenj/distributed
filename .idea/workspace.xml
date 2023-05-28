@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0266466-55d0-443c-9159-f5d0a96c9717" name="Changes" comment="" />
+    <list default="true" id="e0266466-55d0-443c-9159-f5d0a96c9717" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/gradingservice/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/gradingservice/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/logservice/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/logservice/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grades/grades.go" beforeDir="false" afterPath="$PROJECT_DIR$/grades/grades.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grades/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/grades/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/log/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registry/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/registry/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registry/registration.go" beforeDir="false" afterPath="$PROJECT_DIR$/registry/registration.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registry/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/registry/server.go" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +28,10 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://C:/Go" />
+  <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
@@ -40,25 +54,70 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Build.go build distributed/cmd/registryservice (1)">
     <configuration name="go build distributed/cmd/logservice" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="distributed" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/cmd/logservice/main.go" />
       <package value="distributed/cmd/logservice" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/cmd/logservice/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build distributed/cmd/registryservice (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="distributed" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/cmd/registryservice/main.go" />
+      <package value="distributed/cmd/registryservice" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build distributed/cmd/registryservice" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/cmd/registryservice/main.go" />
+      <package value="distributed/cmd/registryservice" />
+      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build distributed/cmd/registryservice (1)" />
+        <item itemvalue="Go Build.go build distributed/cmd/registryservice" />
         <item itemvalue="Go Build.go build distributed/cmd/logservice" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -67,13 +126,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/cmd/logservice/main.go</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/registry/server.go</url>
-          <line>57</line>
+          <line>141</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

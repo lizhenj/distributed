@@ -19,6 +19,7 @@ func (s Student) Average() float32{
 	}
 	return result / float32((len(s.Grades)))
 }
+
 type Students []Student
 
 var (

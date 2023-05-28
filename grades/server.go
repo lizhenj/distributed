@@ -47,6 +47,7 @@ func (sh studentsHandler) getAll(w http.ResponseWriter, r *http.Request){
 	defer studentsMutex.Unlock()
 
 	data,err := sh.toJSON(students)
+	//data,err := json.Marshal(students)
 	if err != nil{
 		w.WriteHeader(http.StatusInternalServerError)
 		log.Println(err)
