@@ -8,9 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmd/gradingservice/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/gradingservice/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmd/logservice/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/logservice/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grades/grades.go" beforeDir="false" afterPath="$PROJECT_DIR$/grades/grades.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grades/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/grades/server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/log/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/registryservice/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/registryservice/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/registry/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/registry/client.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/registry/registration.go" beforeDir="false" afterPath="$PROJECT_DIR$/registry/registration.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/registry/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/registry/server.go" afterDir="false" />
@@ -51,8 +49,13 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/portal" />
     <property name="settings.editor.selected.configurable" value="go.sdk" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study\go-work\src\distributed\portal" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -121,16 +124,5 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/registry/server.go</url>
-          <line>141</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
